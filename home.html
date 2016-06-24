@@ -1,0 +1,79 @@
+<head>
+<link rel="stylesheet" href="home.css" type="text/css"/>
+</head>
+
+<body>
+
+<div id="header">
+<h1><a href="#">JACQUELINE XU PHOTOGRAPHY</a></h1>
+</div>
+
+    <div class="nav">
+      <ul>
+        <li class="portraits"><a href="file:///Users/Jackie/Desktop/Webpage/portfolio.html">PORTFOLIO</a></li>
+        <li class="about"><a href="file:///Users/Jackie/Desktop/Webpage/about.html">ABOUT</a></li>
+        <li class="blog"><a href="http://xuuper.wix.com/blog">BLOG</a></li>
+        <li class="contact"><a href="file:///Users/Jackie/Desktop/Webpage/contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+
+
+<div class="grid">
+  <table>
+    <tr>
+    <td>
+      <!-- Learn how to make it fade -->
+      <script type = "text/javascript">
+
+      function fade(element) {
+        var op = 1;
+        var timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer);
+            element.style.display = 'none';
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op -= op * 0.1;
+    }, 50);
+}
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+
+          }
+
+          var images = [], x = -1;
+          images[0] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13235563_1177548852264391_7879465638090732843_o.jpg";
+          images[1] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13217451_1177547762264500_4541211980930547606_o.jpg";
+          images[2] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12440765_1177547598931183_9107266754126210102_o.jpg";
+          images[3] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13320809_1189544971064779_8880906225857619089_o.jpg";
+      </script>
+
+      <body onload = "startTimer()">
+       <img id="img" src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/12771466_1121731441179466_3197209519782249570_o.jpg"/>
+   </body>
+
+      <!-- <a href="#">
+      <img src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/12771466_1121731441179466_3197209519782249570_o.jpg"/>
+    </a> -->
+  </span>
+</td>
+      </tr>
+</table>
+</body>
+</div>
+
+<div id="footer">
+
+</div>
