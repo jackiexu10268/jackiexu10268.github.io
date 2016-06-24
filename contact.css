@@ -1,0 +1,89 @@
+<style>
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    font-family: Slim Joe;
+    background-color:#FFFFFF;
+    color:#333333;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+.icons p {
+  text-align: center;
+  color: #333333;
+}
+
+.icons img {
+  width:auto;
+  height: auto;
+  max-width: 50px;
+  max-height: 50px;
+  padding: 30px;
+}
+
+
+p {
+  padding-top: 0px;
+  text-align: center;
+  font-family: Roboto Condensed,Slim Joe;
+  font-size: 12px;}
+
+  h1 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: Roboto Condensed, Lato,CartoGothic Std, serif;
+    font-size:50px;
+    color: #333333;
+    letter-spacing:5px;
+  }
+
+  a {
+    text-decoration:none;
+    color:#333333;
+  }
+
+  .nav ul {
+    text-align: center;
+    font-size: 13px;
+    font-family: Roboto Condensed,Lato;
+    letter-spacing:2px;
+  }
+
+
+  .nav a {
+    text-decoration: none;
+    color: #959595;
+    display: block;
+    -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+  }
+
+  .nav a:hover {
+    color: #333333;
+  }
+
+  .nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+  }
+
+  @media screen and (min-width: 600px) {
+    .nav li {
+      width: 200px;
+      font-size: 1.4em;
+      display: inline-block;
+    }
+
+
+}
+</style>
