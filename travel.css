@@ -1,18 +1,18 @@
 <style>
 
-/*#footer {*/
-/*    position: fixed;*/
-/*    bottom: 0px;*/
-/*    width: 100%;*/
-/*    overflow: visible;*/
-/*    z-index: 99;*/
-/*    font-family: Slim Joe,serif;*/
-/*    background-color:#FFFFFF;*/
-/*    color:#000000;*/
-/*    clear:both;*/
-/*    text-align:center;*/
-/*    padding:5px;*/
-/*}*/
+#footer {
+    position: fixed;
+    /*bottom: 0px;*/
+    /*width: 100%;*/
+    /*overflow: visible;*/
+    /*z-index: 99;*/
+    /*font-family: Slim Joe,serif;*/
+    /*background-color:#FFFFFF;*/
+    /*color:#000000;*/
+    /*clear:both;*/
+    /*text-align:center;*/
+    /*padding:5px;*/
+}
 
 .grid {
   overflow-y: scroll;
