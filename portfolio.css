@@ -11,6 +11,7 @@
 
 #footer {
     position: fixed;
+<<<<<<< HEAD
     /*bottom: 0px;
     width: 100%;
     overflow: visible;
@@ -21,6 +22,18 @@
     clear:both;
     text-align:center;
     padding:5px;*/
+=======
+    /*bottom: 0px;*/
+    /*width: 100%;*/
+    /*overflow: visible;*/
+    /*z-index: 99;*/
+    /*font-family: Slim Joe,serif;*/
+    /*background-color:#FFFFFF;*/
+    /*color:#000000;*/
+    /*clear:both;*/
+    /*text-align:center;*/
+    /*padding:5px;*/
+>>>>>>> d86280678ac73298f6e7df9997be74ffad54ba45
 }
 
 .grid {
