@@ -1,7 +1,7 @@
 <style>
 
 @font-face {
-    font-family: 'roboto_condensedregular';
+    font-family: 'Roboto Condensed';
     src: url('robotocondensed-regular-webfont.woff2') format('woff2'),
          url('robotocondensed-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -9,9 +9,17 @@
 
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url('lato-regular-webfont.woff2') format('woff2'),
+         url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #footer {
     position: fixed;
-<<<<<<< HEAD
     /*bottom: 0px;
     width: 100%;
     overflow: visible;
@@ -22,18 +30,6 @@
     clear:both;
     text-align:center;
     padding:5px;*/
-=======
-    /*bottom: 0px;*/
-    /*width: 100%;*/
-    /*overflow: visible;*/
-    /*z-index: 99;*/
-    /*font-family: Slim Joe,serif;*/
-    /*background-color:#FFFFFF;*/
-    /*color:#000000;*/
-    /*clear:both;*/
-    /*text-align:center;*/
-    /*padding:5px;*/
->>>>>>> d86280678ac73298f6e7df9997be74ffad54ba45
 }
 
 .grid {
