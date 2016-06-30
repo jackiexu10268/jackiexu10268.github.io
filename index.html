@@ -23,34 +23,61 @@
   <table>
     <tr>
     <td>
-      <!-- Learn how to make it fade -->
       <script type = "text/javascript">
 
-      function fade(element) {
-        var op = 1;
-        var timer = setInterval(function () {
-        if (op <= 0.1){
-            clearInterval(timer);
-            element.style.display = 'none';
-        }
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op -= op * 0.1;
-    }, 50);
-}
+      // var imgArray = ['https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13340264_1193528907333052_8102554328705974717_o.jpg'
+      // 'https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13235563_1177548852264391_7879465638090732843_o.jpg'
+      // 'https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13433145_1198419746843968_6828628696891410994_o.jpg'],
+      //     curIndex = 0;
+      //     imgDuration = 3000;
+      //     // images[0] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13340264_1193528907333052_8102554328705974717_o.jpg";
+      //     // images[1] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13235563_1177548852264391_7879465638090732843_o.jpg";
+      //     // images[2] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13433145_1198419746843968_6828628696891410994_o.jpg";
+      //     // images[3] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13217451_1177547762264500_4541211980930547606_o.jpg";
+      //     // images[4] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13418403_1025616700859671_1248501924063656856_o.jpg";
+      //     // images[5] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12440765_1177547598931183_9107266754126210102_o.jpg";
+      //     // images[6] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13320809_1189544971064779_8880906225857619089_o.jpg";
+      //
+      // function slideShow() {
+      //     document.getElementById('img').className += "fadeOut";
+      //     setTimeout(function() {
+      //         document.getElementById('img').src = imgArray[curIndex];
+      //         document.getElementById('img').className = "";
+      //     },1000);
+      //     curIndex++;
+      //     if (curIndex == imgArray.length) { curIndex = 0; }
+      //     setTimeout(slideShow, imgDuration);
+      // }
+      // slideShow();
+
+
+
+//       function fade(element) {
+//         var op = 1;
+//         var timer = setInterval(function () {
+//         if (op <= 0.1){
+//             clearInterval(timer);
+//             element.style.display = 'none';
+//         }
+//         element.style.opacity = op;
+//         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+//         op -= op * 0.1;
+//     }, 50);
+// }
           function displayNextImage() {
-              x = (x === images.length - 1) ? 0 : x + 1;
-              document.getElementById("img").src = images[x];
+              //x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").className += "fadeOut";
+              setTimeout(function() {
+                      document.getElementById('img').src = images[x];
+                      document.getElementById('img').className = "";
+                  },1000);
+                  x++;
+              //document.getElementById("img").src = images[x];
 
-          }
-
-          function displayPreviousImage() {
-              x = (x <= 0) ? images.length - 1 : x - 1;
-              document.getElementById("img").src = images[x];
           }
 
           function startTimer() {
-              setInterval(displayNextImage, 3000);
+              setInterval(displayNextImage, 4000);
 
           }
 
@@ -67,11 +94,6 @@
       <body onload = "startTimer()">
        <img id="img" src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/12771466_1121731441179466_3197209519782249570_o.jpg"/>
    </body>
-
-      <!-- <a href="#">
-      <img src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/12771466_1121731441179466_3197209519782249570_o.jpg"/>
-    </a> -->
-  </span>
 </td>
       </tr>
 </table>

@@ -17,6 +17,7 @@
 
 }
 
+
 #footer {
     position: fixed;
     bottom: 0px;
@@ -39,7 +40,11 @@
    height: auto;
    max-height: 1000px;
    opacity:1.0;
+   transition: opacity 1s;
+}
 
+.grid img.fadeOut {
+  opacity:0;
 }
 
 .grid table {
