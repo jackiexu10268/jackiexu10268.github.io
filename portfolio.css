@@ -57,11 +57,22 @@
 
 }
 
+.grid img:hover {
+  opacity: .75;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+
 .grid .subtitle {
   padding-top: 10px;
   text-align: center;
   font-family: Roboto Condensed;
 }
+
 
 .overlay {
     position:absolute;
