@@ -41,18 +41,17 @@
   z-index: 15;
   font-family: Lato, Roboto Condensed;
   text-align: center;
-  margin: -150px 0 0 -400px;
-
+  margin: -100px 0 0 -450px;
 }
 
 
 #image img {
   position: absolute;
   padding-top: 20px;
-  left: 60%;
+  left: 55%;
   width: auto;
   height: auto;
-  max-height: 300px;
+  max-height: 500px;
 }
 
 h1 {
