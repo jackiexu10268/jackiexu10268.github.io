@@ -56,9 +56,15 @@
 
 .grid td {
   max-width: 500px;
-  padding-top: 50px;
-  padding-right: 150px;
+  padding-top: 20px;
+  /*padding-right: 150px;*/
   padding-left: 50px;
+}
+
+.grid img {
+  max-width: 300px;
+  width: auto;
+  height: auto;
 }
 
 .grid a {
