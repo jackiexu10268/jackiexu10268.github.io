@@ -24,7 +24,7 @@
     width: 100%;
     overflow: visible;
     z-index: 99;
-    font-family: Slim Joe;
+    /*font-family: Slim Joe;*/
     background-color:#FFFFFF;
     color:#333333;
     clear:both;
@@ -49,14 +49,14 @@
 p {
   padding-top: 0px;
   text-align: center;
-  font-family: Roboto Condensed,Slim Joe;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
   font-size: 12px;}
 
   h1 {
     padding-top: 50px;
     padding-bottom: 0px;
     text-align: center;
-    font-family: Roboto Condensed, Lato,CartoGothic Std, serif;
+    font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
     font-size:50px;
     color: #333333;
     letter-spacing:5px;
@@ -70,7 +70,7 @@ p {
   .nav ul {
     text-align: center;
     font-size: 13px;
-    font-family: Roboto Condensed,Lato;
+    font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
     letter-spacing:2px;
   }
 

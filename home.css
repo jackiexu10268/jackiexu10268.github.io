@@ -24,7 +24,7 @@
     width: 100%;
     overflow: visible;
     z-index: 99;
-    font-family: Slim Joe,serif;
+    /*font-family: Slim Joe,serif;*/
     background-color:#FFFFFF;
     color:#000000;
     clear:both;
@@ -63,7 +63,7 @@ h1 {
   padding-top: 50px;
   padding-bottom: 0px;
   text-align: center;
-  font-family: Roboto Condensed, Lato,CartoGothic Std, serif;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
   font-size:50px;
   color: #333333;
   letter-spacing:5px;
@@ -77,7 +77,7 @@ a {
 .nav ul {
   text-align: center;
   font-size: 13px;
-  font-family: Roboto Condensed,Lato;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
   letter-spacing:2px;
 }
 

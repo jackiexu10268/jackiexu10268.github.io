@@ -72,7 +72,7 @@
 .grid .subtitle {
   padding-top: 10px;
   text-align: center;
-  font-family: Roboto Condensed;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
 }
 
 
@@ -114,7 +114,7 @@ h1 {
   padding-top: 50px;
   padding-bottom: 0px;
   text-align: center;
-  font-family: Roboto Condensed, Lato,CartoGothic Std, serif;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
   font-size:50px;
   color: #333333;
   letter-spacing:5px;
@@ -128,7 +128,7 @@ a {
 .nav ul {
   text-align: center;
   font-size: 13px;
-  font-family: Roboto Condensed,Lato;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
   letter-spacing:2px;
 }
 
