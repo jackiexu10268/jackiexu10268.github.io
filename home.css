@@ -36,11 +36,12 @@
 
 .grid img {
    width: auto;
-   max-width: 1000px;
+   max-width: 75%;
    height: auto;
-   max-height: 1000px;
+   max-height: 75%;
    opacity:1.0;
    transition: opacity 1s;
+
 }
 
 .grid img.fadeOut {
@@ -53,6 +54,7 @@
 }
 
 .grid td {
+  text-align: center;
   padding:20px;
 }
 
