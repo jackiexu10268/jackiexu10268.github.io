@@ -1,5 +1,7 @@
 <head>
 <link rel="stylesheet" href="home.css" type="text/css" charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
@@ -63,8 +65,7 @@
           images[4] = "../Pictures/DSC_0766.jpg";
           images[5] = "../Pictures/DSC_1064.jpg";
           
-          function displayNextImage() {
-		  	
+          function displayNextImage() {	
 		  	$("#img").stop().fadeTo(1000,0,"linear",function(){
 		  		x = (x+1 == images.length) ? 0 : x + 1
 		  		setTimeout(function(){$("#img").hide().attr("src", images[x]).fadeTo(300, 1);},200);
@@ -72,7 +73,6 @@
           }
 
           //displayNextImage();
-
           function startTimer() {
               setInterval(displayNextImage, 5500);
           }
@@ -80,7 +80,7 @@
       </script>
 
       <body onload = "startTimer()">
-       <img id="img" src="../jackiexu10268.github.io/Pictures/DSC_0306.jpg"/>
+       <img id="img" src="../Pictures/DSC_0306.jpg"/>
    </body>
 </td>
       </tr>
