@@ -1,5 +1,7 @@
 <head>
 <link rel="stylesheet" href="home.css" type="text/css" charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
@@ -23,6 +25,7 @@
   <table>
     <tr>
     <td>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <script type = "text/javascript">
 
       // var imgArray = ['https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13340264_1193528907333052_8102554328705974717_o.jpg'
@@ -53,7 +56,7 @@
 
           var images = [];
           x = 0;
-          imgDuration = 4000;
+          imgDuration = 5000;
 
           images[0] = "../Pictures/DSC_0306.jpg";
           images[1] = "../Pictures/DSC_0745.jpg";
@@ -61,25 +64,17 @@
           images[3] = "../Pictures/DSC_0758.jpg";
           images[4] = "../Pictures/DSC_0766.jpg";
           images[5] = "../Pictures/DSC_1064.jpg";
-          
-          function displayNextImage() {
-              //x = (x === images.length - 1) ? 0 : x + 1;
-              document.getElementById("img").className += "fadeOut";
-              setTimeout(function() {
-                      document.getElementById('img').src = images[x];
-                      document.getElementById('img').className = "";
-                  }, 1000);
-                  x += 1;
-                  if (x == images.length - 1) { x = 0; };
-                  //setTimeout(displayNextImage, imgDuration);
-              //document.getElementById("img").src = images[x];
 
+          function displayNextImage() {
+		  	$("#img").stop().fadeTo(1000,0,"linear",function(){
+		  		x = (x+1 == images.length) ? 0 : x + 1
+		  		setTimeout(function(){$("#img").hide().attr("src", images[x]).fadeTo(300, 1);},200);
+		  	});
           }
 
           //displayNextImage();
-
           function startTimer() {
-              setInterval(displayNextImage, 4000);
+              setInterval(displayNextImage, 5500);
           }
 
       </script>
