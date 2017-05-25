@@ -14,6 +14,177 @@
 
 }
 
+/* Dropdown Button */
+.dropbtn {
+  font-size: 17px;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
+  letter-spacing:2px;
+    background-color: #FFFFFF;
+    color:#959595;
+    /*color: #333333;*/
+    /*padding: 16px;*/
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    /*position: relative;*/
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 100px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-size: 13px;
+    -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: #333333;
+    -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+}
+
+
+#h1 {
+  float: left;
+  padding-top: 5px;
+  padding-left:10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-style: bold;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
+  font-size:30px;
+  color: #333333;
+  letter-spacing:3px;
+}
+
+a {
+  text-decoration:none;
+  color:#333333;
+}
+
+#nav ul {
+  color:#959595;
+  margin: 0px;
+  display: inline-block;
+  vertical-align:top;
+  text-align: right;
+  font-family: 'Roboto Condensed', 'Lato', Helvetica, sans-serif;
+}
+
+#nav ul li {
+  padding: 15px;
+  display: table-cell;
+   font-size: 17px;
+   letter-spacing:2px;
+}
+
+
+#nav a {
+  /*display:inline-block;*/
+  text-decoration: none;
+  color: #959595;
+  display: block;
+  -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+}
+
+#nav a:hover {
+  color: #333333;
+}
+
+#nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    /*resize: vertical  Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.label {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #696969;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.grid table {
+
+  font-family: 'Roboto Condensed';
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.grid td {
+
+  text-align: Left;
+  padding:20px;
+  font-size: 30px;
+  color: #333333;
+}
+
 #footer {
     position: fixed;
     bottom: 0px;
@@ -34,6 +205,7 @@
 }
 
 .icons img {
+  margin-top: 50px;
   width:auto;
   height: auto;
   max-width: 50px;

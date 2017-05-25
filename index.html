@@ -1,30 +1,177 @@
-<div>
-<style type="text/css">
-div {
-    height: 200px;
-    width: 400px;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 13px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
-}</style>
-<p>under construction</p>
-<p>be back soon!</p>
-<p>-jackie</p>
-<p><a href="http://instagram.com/xuper_" target="_blank">
-<style type="text/css">
-img {
-  max-width: 20px;
-  width: auto;
-  height: auto;
-  padding: 10px;
+<head>
+<link rel="stylesheet" href="home.css" type="text/css" charset="utf-8"/>
+</head>
+
+<body>
+
+<body>
+    <div class="header" class="custom font">
+        <div id="h1">
+            <b><a href="index.html">JACQUELINE XU</a></div></b>
+            <div id="nav">
+            <ul>
+                <li class="portraits">
+                  <div class = "dropdown">
+                    <button class="dropbtn">PORTFOLIO</button>
+                      <div class="dropdown-content">
+                        <a href="portraits.html">PORTRAITS</a>
+                        <a href="travel.html">TRAVEL</a>
+                        <a href="grad.html">GRADUATION</a>
+                        <a href="product.html">PRODUCT</a>
+                      </div>
+                    </div>
+                </li>
+        <li class="about"><a href="about.html">ABOUT</a></li>
+        <li class="projects"><a href="projects.html">PROJECTS</a></li>
+        <li class="blog"><a href="http://xuuper.wix.com/blog" target="_blank">BLOG</a></li>
+        <li class="contact"><a href="contact.html">CONTACT</a></li>
+            </ul></div>
+        </div>
+        </div>
+        </body>
+
+   <!--  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div> -->
+</div>
+
+
+<div class="grid">
+  <table>
+    <tr>
+    <td>
+      <!-- <script type = "text/javascript">
+      // var imgArray = ['https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13340264_1193528907333052_8102554328705974717_o.jpg'
+      // 'https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13235563_1177548852264391_7879465638090732843_o.jpg'
+      // 'https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13433145_1198419746843968_6828628696891410994_o.jpg'],
+      //     curIndex = 0;
+      //     imgDuration = 3000;
+      //     // images[0] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13340264_1193528907333052_8102554328705974717_o.jpg";
+      //     // images[1] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13235563_1177548852264391_7879465638090732843_o.jpg";
+      //     // images[2] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13433145_1198419746843968_6828628696891410994_o.jpg";
+      //     // images[3] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/13217451_1177547762264500_4541211980930547606_o.jpg";
+      //     // images[4] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13418403_1025616700859671_1248501924063656856_o.jpg";
+      //     // images[5] = "https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/12440765_1177547598931183_9107266754126210102_o.jpg";
+      //     // images[6] = "https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13320809_1189544971064779_8880906225857619089_o.jpg";
+      //
+      // function slideShow() {
+      //     document.getElementById('img').className += "fadeOut";
+      //     setTimeout(function() {
+      //         document.getElementById('img').src = imgArray[curIndex];
+      //         document.getElementById('img').className = "";
+      //     },1000);
+      //     curIndex++;
+      //     if (curIndex == imgArray.length) { curIndex = 0; }
+      //     setTimeout(slideShow, imgDuration);
+      // }
+      // slideShow();
+          var images = [];
+          x = 0;
+          imgDuration = 5000;
+          images[0] = "../Pictures/DSC_0306.jpg";
+          images[1] = "../Pictures/DSC_0745.jpg";
+          images[2] = "../Pictures/DSC_0488.jpg";
+          images[3] = "../Pictures/DSC_0758.jpg";
+          images[4] = "../Pictures/DSC_0766.jpg";
+          images[5] = "../Pictures/DSC_1064.jpg";
+
+          function displayNextImage() {
+              //x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").className += "fadeOut";
+              setTimeout(function() {
+                      document.getElementById('img').src = images[x];
+                      document.getElementById('img').className = "";
+                  }, 1000);
+                  x += 1;
+                  if (x == images.length - 1) { x = 0; };
+                  //setTimeout(displayNextImage, imgDuration);
+              //document.getElementById("img").src = images[x];
+          }
+          //displayNextImage();
+          function startTimer() {
+              setInterval(displayNextImage, 5000);
+          }
+      </script>
+
+      <body onload = "startTimer()">
+       <img id="img" src="../Pictures/DSC_0306.jpg"/>
+   </body> -->
+   <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="../Pictures/DSC_0622.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides fade">
+    <img src="../Pictures/DSC_0758.jpg" style="width:100%">
+  </div>
+
+ 
+
+  <div class="mySlides fade">
+    <img src="../Pictures/DSC_0507.jpg" style="width:100%">
+  </div>
+    
+    <!-- <img src="https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/17761202_1481656468520293_2565318713903922677_o.jpg?oh=6a9ef75da567d0d4a913e6185d5d8a7d&oe=5955BF13" style="width:100%"> -->
+     
+
+   <div class="mySlides fade">
+    <img src="../Pictures/DSC_1475.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides fade">
+    <img src="../Pictures/DSC_0766.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides fade">
+    <img src="../Pictures/DSC_0488.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="../Pictures/DSC_0573.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="../Pictures/DSC_0745.jpg" style="width:100%">
+  </div>
+
+  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+</div>
+<br>
+
+<!-- <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div> -->
+
+<script type = "text/javascript">
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+</script>
+   <!-- <img id="img" src="../Pictures/DSC_0622.jpg"/> -->
+</td>
+      </tr>
+</table>
+</body>
+</div>
 
+<div id="footer">
 
-</style>
-      <img src="https://c2.staticflickr.com/2/1494/24093982422_35709d8ec9_t.jpg"/></a>
 </div>

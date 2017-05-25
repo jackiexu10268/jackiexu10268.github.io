@@ -1,5 +1,4 @@
 <style>
-
 @font-face {
     font-family: 'Roboto Condensed';
     src: url('robotocondensed-regular-webfont.woff2') format('woff2'),
@@ -133,18 +132,15 @@ a {
   cursor: default;
 }
 
-
-
 .grid {
-  margin-top: 50px;
-  padding-top: 20px;
+  padding-top: 50px;
   overflow-y: scroll;
     height: 100%;
 }
 
 .grid img {
    width: auto;
-   max-width: 1000px;
+   max-width: 400;
    height: auto;
    max-height: 650px;
    opacity:1.0;
@@ -157,9 +153,17 @@ a {
 }
 
 .grid td {
-  padding:20px;
+  padding:10px;
 }
 
+#subtitle {
+  padding-top: 10px;
+  text-align: center;
+  color:#959595;
+  display: block;
+  font-family: Helvetica;
+  font-size: 12px;
+}
 
 
 @media screen and (min-width: 600px) {
