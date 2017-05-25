@@ -140,7 +140,7 @@ a {
 
 .grid img {
    width: auto;
-   max-width: 400;
+   /*max-width: 400;*/
    height: auto;
    max-height: 650px;
    opacity:1.0;
